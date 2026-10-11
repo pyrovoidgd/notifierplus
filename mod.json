@@ -1,0 +1,38 @@
+{
+    "geode": "5.11.1",
+    "gd": {
+        "win": "2.2081"
+    },
+    "id": "pyrovoid.notifierplus",
+    "name": "NotifierPlus",
+    "version": "v1.0.0",
+    "developer": "Pyrovoid",
+    "description": "Customizable notifications for messages, Daily Levels, Weekly Levels, and Event Levels.",
+    "settings": {
+        "notify-messages": {
+            "type": "bool",
+            "name": "Messages",
+            "description": "Enable message notifications.",
+            "default": true
+        },
+        "notify-daily": {
+            "type": "bool",
+            "name": "New Daily",
+            "description": "Enable notifications for new Daily Levels.",
+            "default": true
+        },
+        "notify-weekly": {
+            "type": "bool",
+            "name": "New Weekly",
+            "description": "Enable notifications for new Weekly Levels.",
+            "default": true
+        },
+        "notify-event": {
+            "type": "bool",
+            "name": "New Event Level",
+            "description": "Enable notifications for new Event Levels.",
+            "default": true
+        }
+    },
+    "dependencies": {}
+}
